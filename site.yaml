@@ -1,0 +1,10 @@
+title: St. Vladimir Memorial Church
+description: Russian Orthodox Christian Church in the jurisdiction of ROCOR
+favicon: /img/favicon-96x96.png
+
+globals:
+  - lib
+
+inline_css: true
+
+icon_base: /icons

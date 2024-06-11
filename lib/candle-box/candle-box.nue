@@ -1,0 +1,18 @@
+<script>
+    import { app } from './online-candle-box.js'
+    import { locations, candles, paypalClientId, brandName, thankYouMessage } from './inventory.js';
+</script>
+
+<div @name="candle-box" class="candle-box">
+    <script>
+        mounted({lang}) {
+            new app.CandleBox({
+                target: this.$el,
+                props: {
+                    lang: lang == 'ru' ? 'ru' : 'en',  // weird that I can not pass it down directly. Proxy?
+                    locations, candles, paypalClientId, brandName, thankYouMessage
+                }
+            });
+        }
+    </script>
+</div>

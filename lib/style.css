@@ -1,0 +1,242 @@
+html {
+    font-size: 10px;
+
+    --accent-color: #E75926;
+    --accent-color-alt: #B75926;
+}
+
+body {
+    color: #444;
+    font-size: 2rem;
+
+    section {
+        padding: 1rem;
+    }
+}
+
+.intro {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    h1 {
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        text-align: center;
+        color: #aaa;
+        font-size: 5rem;
+        opacity: 0.75;
+        font-weight: 500;
+        padding: 1rem;
+        background-color: #0005;
+        margin: 0;
+    }
+
+    a[role="button"] {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        color: #aaa;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #0005;
+
+        &:hover {
+            background-color: #0005;
+        }
+    }
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    text-decoration: underline 3px var(--accent-color);
+    text-underline-offset: 1rem;
+    /* border-bottom: 3px solid   */
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+
+    &img {
+        min-width: 200px;
+        width: 100%;
+    }
+
+    div {
+        flex: 1 1 1;
+    }
+
+    h3 {
+        font-weight: 600;
+        margin: 0.25rem;
+    }
+
+    p {
+        margin-top: 0.5rem;
+    }
+
+    @media screen {}
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
+}
+
+.clergy {
+    text-align: center;
+}
+
+a:link {
+    color: var(--accent-color);
+}
+
+a:visited {
+    color: var(--accent-color-alt);
+}
+
+a:focus,
+a:hover {
+    border-bottom: 1px solid;
+}
+
+.schedule {
+    text-align: center;
+
+    h3 {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        table-layout: fixed;
+
+        th:nth-child(1),
+        td:nth-child(1) {
+            text-align: right;
+        }
+
+        th:nth-child(2),
+        td:nth-child(2) {
+            text-align: left;
+        }
+
+        th,
+        td {
+            padding: 0.25rem 1rem;
+        }
+    }
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+
+    div {
+        flex: 10 1 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    img {
+        display: block;
+        width: 3rem;
+        flex: auto;
+    }
+
+    p {
+        margin-top: 0.5rem;
+        flex: auto;
+    }
+}
+
+.explanation {
+    text-align: center;
+}
+
+.confession {
+    color: white;
+    background-image: url(/img/front-bg-dark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.donate {
+    min-height: 80vh;
+    text-align: center;
+    color: white;
+    background-image: url(/img/inside-bg-dark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    p {
+        padding-bottom: 4rem;
+    }
+    h3 {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+}
+
+button, a[role="button"] {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--accent-color-alt);
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    li {
+        &:before {
+            content: "✓";
+            font-weight: 600;
+            padding-right: 1rem;
+            color: var(--accent-color);
+        }
+        p {
+            display: inline;
+        }
+    }
+}
+
+ol {
+    padding: 2.25rem;
+}

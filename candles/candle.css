@@ -1,0 +1,11 @@
+.candle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0.25rem;
+
+    span {
+        flex: 1 1 1;
+        text-align: center;
+    }
+}

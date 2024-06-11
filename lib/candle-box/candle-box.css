@@ -1,0 +1,120 @@
+
+.candle-box {
+    .row {
+        flex-direction: row;
+        display: flex;
+        column-gap: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        .col-md-4 {
+            flex-basis: auto;
+            max-width: 400px;
+            width: 100%;
+
+            .input-group {
+                padding: 0.5rem;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                background-color: #eee;
+                margin-left: 0;
+                justify-content: center;
+                align-items: center;
+                gap: 3rem;
+
+                .label {
+                    font-size: 75%;
+                    font-weight: bold;
+                    line-height: 1;
+                }
+                input {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    line-height: normal;
+                }
+                .number-of-names {
+                    display: inline-block;
+                    width: 4rem;
+                    margin-left: 0;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 800) {
+            flex-direction: column;
+        }
+    }
+
+    textarea::placeholder {
+        color: #888;
+    }
+
+    .button-title {
+        padding-top: 1rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+
+    .button-circle, .btn-circle {
+        background-color: var(--accent-color);
+        border: none;
+        width: 38px;
+        margin: 2px;
+        font-size: 3rem !important;
+        color: white;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            background-color: var(--accent-color-alt);
+        }
+
+        i.fa-plus::after {
+            content: "+";
+            flex: 1;
+            font-style: normal;
+        }
+        i.fa-minus::after {
+            content: "-";
+            flex: 1;
+            font-style: normal;
+        }
+
+        i.fa-times::after {
+            content: "×";
+            flex: 1;
+            font-style: normal;
+        }
+    }
+
+    .buttons {
+        background-color: #0006 !important;
+    }
+
+    .icon > img {
+        width: 87%;
+    }
+}
+
+
+.total {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+
+    .amount { 
+        flex: 1 1 300px;
+        padding: 5px;
+    }
+    #paypal-button-container {
+        flex: 1 1 300px;
+        margin: 5px;
+    }
+}

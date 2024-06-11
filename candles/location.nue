@@ -1,0 +1,18 @@
+<div @name="location" class="location" :lang="en">
+    <img src="{loc.image}"/>
+    <div class="controls">
+        <h2>{loc.description.ru}</h2>
+        <div class="candle-group">
+            <candle :for="c in candles" :data="c" />
+        </div>
+    </div>
+    <script>
+    constructor (data) {
+        console.log({data})
+        console.log({...data})
+    }
+    mounted () {
+        console.log(Object.entries(this))
+    }
+    </script>
+</div>
