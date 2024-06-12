@@ -19,13 +19,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
+    overflow: hidden;
 
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         height: 100vh;
+        width: auto;
         object-fit: cover;
+
+        @media screen and (min-device-aspect-ratio: 16/9) {
+            height: auto;
+            width: 100vw;
+        }
     }
 
     h1 {
@@ -145,7 +152,7 @@ a:hover {
 
         th,
         td {
-            padding: 0.25rem 1rem;
+            padding: 1rem;
         }
     }
 }
@@ -154,7 +161,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 3rem;
+    row-gap: 1rem;
 
     div {
         flex: 10 1 400px;
@@ -186,6 +193,21 @@ a:hover {
     background-image: url(/img/front-bg-dark.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.clergy {
+    p {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .cards {
+        font-size: 1.75rem;
+        img {
+            max-width: 300px;
+        }
+    }
+
 }
 
 .donate {
