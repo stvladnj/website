@@ -6,6 +6,6 @@
     "dev": "nue"
   },
   "devDependencies": {
-    "nue": "latest"
+    "nuekit": "^0.5.3"
   }
 }
