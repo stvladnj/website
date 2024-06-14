@@ -1,5 +1,7 @@
 html {
     font-size: 10px;
+    height: 100vh;
+    overflow-y: hidden;
 
     --accent-color: #E75926;
     --accent-color-alt: #B75926;
@@ -13,7 +15,15 @@ body {
         padding: 1rem;
     }
 
+    height: 100vh;
+    overflow-y: scroll;
     scroll-snap-type: y proximity;
+}
+
+section {
+    scroll-snap-align: start;
+
+    position: relative;
 }
 
 .intro {
@@ -85,6 +95,7 @@ h2 {
 }
 
 .cards {
+
     display: flex;
     flex-direction: row;
     column-gap: 1.5rem;
@@ -116,6 +127,7 @@ h2 {
 }
 
 .clergy {
+    scroll-snap-align: start;
     text-align: center;
 }
 
@@ -133,6 +145,8 @@ a:hover {
 }
 
 .schedule {
+    scroll-snap-align: start;
+    scroll-snap-stop:always;
     text-align: center;
 
     h3 {
