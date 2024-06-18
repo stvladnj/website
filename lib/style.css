@@ -20,9 +20,8 @@ body {
     scroll-snap-type: y proximity;
 }
 
-section {
-    scroll-snap-align: start;
-
+body > section {
+    /* scroll-snap-align: start; */
     position: relative;
 }
 
