@@ -203,7 +203,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 
 ------------------
 
-## Contact us
+## Контакты
 
 [.contacts]
   [! email]
