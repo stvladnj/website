@@ -1,13 +1,13 @@
 ---
 sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate, .contact ]
 ---
-# St.Vladimir Memorial Church in Jackson, NJ
+# St. Vladimir Memorial Church in Jackson, NJ
 
 [button RU href="/ru"]
 
 [image.hero]
-  srcset:  img/st-vlad-bg.jpg 1024w, img/st-vlad-bg-medium.jpg 768w, img/st-vlad-bg-small.jpg 512w
-  loading: eager
+  srcset:  /img/opt/st-vlad-w1024.webp 1024w, /img/opt/st-vlad-w768.webp 768w, /img/opt/st-vlad-w512.webp 512w
+  loading: lazy
   alt: St Vladimir Church Picture
 
 
@@ -16,7 +16,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 ## About us
 [.cards]
   [image]
-    srcset: img/st_vlad_st_olga-787w.jpg 787w, img/st_vlad_st_olga-590w.jpg 590w, img/st_vlad_st_olga-393w.jpg 393w
+    srcset: img/opt/st_vlad_st_olga-w787.webp 787w, img/opt/st_vlad_st_olga-w512.jpg 512w, img/opt/st_vlad_st_olga-w256.jpg 256w
     loading: lazy
     alt: Icon of St Vladimir and St Olga
   ---

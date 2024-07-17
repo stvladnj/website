@@ -1,3 +1,4 @@
+
 html {
     font-size: 10px;
     height: 100vh;
@@ -37,6 +38,7 @@ body > section {
         margin-left: auto;
         margin-right: auto;
         height: 100vh;
+        min-width: 100vw;
         width: auto;
         object-fit: cover;
 
@@ -51,7 +53,7 @@ body > section {
         bottom: 0;
         width: 100vw;
         text-align: center;
-        color: #aaa;
+        color: #fff;
         font-size: 5rem;
         /* opacity: 0.75; */
         font-weight: 500;
@@ -65,7 +67,7 @@ body > section {
         border-top-right-radius: 0;
         border-top-left-radius: 0;
         border-bottom-right-radius: 0;
-        color: #aaa;
+        color: #fff;
         position: absolute;
         top: 0;
         right: 0;
@@ -209,8 +211,16 @@ a:hover {
     color: white;
     text-shadow: 0 0 1rem black;
     background-image: url(/img/front-bg-dark.jpg);
+    background-position-y: 0;
     background-size: cover;
     background-attachment: fixed;
+    animation-name: bg-slide;
+    animation-duration: 1ms;
+    animation-timeline: view();
+}
+@keyframes bg-slide {
+    from { background-position-y: 0; }
+    to { background-position-y: -100vh; }
 }
 
 .clergy {
@@ -235,6 +245,9 @@ a:hover {
     background-image: url(/img/inside-bg-dark.jpg);
     background-size: cover;
     background-attachment: fixed;
+    animation-name: bg-slide;
+    animation-duration: 2s;
+    animation-timeline: view();
 
     p {
         padding-bottom: 4rem;
