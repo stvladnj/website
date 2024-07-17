@@ -37,7 +37,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Bun
         # Outputs to the './.dist' directory by default
-        run: "bun i && BUILD_NUMBER=$GITHUB_RUN_NUMBER bun run build"
+        run: "bun i && bun run optimize && BUILD_NUMBER=$GITHUB_RUN_NUMBER bun run build"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

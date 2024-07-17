@@ -9,6 +9,3 @@ inline_css: true
 
 icon_base: /icons
 
-exclude:
-  - optimize-images.js
-  - img/raw/*

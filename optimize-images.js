@@ -43,7 +43,7 @@ export class Optimizer {
     }
 }
 
-const optimizer = new Optimizer({ dir: 'img/opt', quality: 95 });
+const optimizer = new Optimizer({ dir: 'opt', quality: 95 });
 
 const assets = {
     'img/st-vlad.jpg': {
@@ -53,6 +53,31 @@ const assets = {
     'img/st_vlad_st_olga.jpg': {
         widths: [null, 512, 256],
     },
+
+    'lib/candle-box/img/st_vladimir.png': {
+        widths: [400],
+    },
+
+    'lib/candle-box/img/st_nicolas.png': {
+        widths: [400],
+    },
+
+    'lib/candle-box/img/kiev-sobor.png': {
+        widths: [400],
+    },
+
+    'lib/candle-box/img/icon_theotokos.png': {
+        widths: [400],
+    },
+
+    'lib/candle-box/img/comm_table.png': {
+        widths: [400],
+    },
+
+    'lib/candle-box/img/center_icon.png': {
+        widths: [400],
+    },
+
 };
 
 for (const [src, options] of Object.entries(assets)) {

@@ -6,7 +6,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 [button EN href="/"]
 
 [image.hero]
-  srcset:  /img/opt/st-vlad-w1024.webp 1024w, /img/opt/st-vlad-w768.webp 768w, /img/opt/st-vlad-w512.webp 512w
+  srcset:  /opt/st-vlad-w1024.webp 1024w, /opt/st-vlad-w768.webp 768w, /opt/st-vlad-w512.webp 512w
   loading: lazy
   alt: St Vladimir Church Picture
 
@@ -15,7 +15,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 ## О нас
 [.cards]
   [image]
-    srcset: /img/opt/st_vlad_st_olga-w787.webp 787w, /img/opt/st_vlad_st_olga-w512.webp 512w, /img/opt/st_vlad_st_olga-w256.webp 256w
+    srcset: /opt/st_vlad_st_olga-w787.webp 787w, /opt/st_vlad_st_olga-w512.webp 512w, /opt/st_vlad_st_olga-w256.webp 256w
     loading: lazy
     alt: Icon of St Vladimir and St Olga
   ---
