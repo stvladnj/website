@@ -54,6 +54,14 @@ const assets = {
         widths: [null, 512, 256],
     },
 
+    'img/mn.jpg': {
+        widths: [null, 400]
+    },
+
+    'img/fs.png': {
+        widths: [null, 400]
+    },
+
     'lib/candle-box/img/st_vladimir.png': {
         widths: [400],
     },
