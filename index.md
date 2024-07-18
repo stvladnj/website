@@ -158,7 +158,8 @@ Church Rector is Metropolitan of Eastern America & New York Nicholas (OLHOVSKY),
 ------------------
 
 ## Donate to our Church
-Our church is a public charity, as recognised by IRS section 501(c)(3) (charity number 74-3224137). Donation are tax-exempt.
+Our church is a public charity, as recognised by IRS section 501(c)(3) (charity number 74-3224137).
+
 Your donations support our projects and are greately appreciated.
 
 [paypal-button label="Donate" howmuch="20" paypal_id="AHW38JCEJ29NC"]
