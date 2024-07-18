@@ -210,7 +210,7 @@ a:hover {
 .confession {
     color: white;
     text-shadow: 0 0 1rem black;
-    background-image: url(/img/front-bg-dark.jpg);
+    background-image: url(/opt/front-w1024.webp);
     background-position-y: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -242,7 +242,7 @@ a:hover {
     min-height: 80vh;
     text-align: center;
     color: white;
-    background-image: url(/img/inside-bg-dark.jpg);
+    background-image: url(/opt/inside-w2048.webp);
     background-size: cover;
     background-attachment: fixed;
     animation-name: bg-slide;

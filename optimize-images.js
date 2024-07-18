@@ -3,9 +3,13 @@ import path from 'path';
 
 
 async function optimize(imageFilename, dir, options = {}) {
-    const { widths = [], formats = ['webp'], quality = 80 } = options;
-    const image = sharp(imageFilename);
+    const { widths = [], formats = ['webp'], quality = 80, modulate, } = options;
+    let image = sharp(imageFilename);
     const { width } = await image.metadata();
+
+    if (modulate) {
+        image = image.modulate(modulate);
+    }
 
     if (widths.length === 0) {
         widths.push(width);
@@ -86,6 +90,20 @@ const assets = {
         widths: [400],
     },
 
+    'img/front.jpg': {
+        widths: [null],
+        modulate: {
+            brightness: 0.5,
+            saturation: 0.5,
+        },
+    },
+    'img/inside.jpg': {
+        widths: [null],
+        modulate: {
+            brightness: 0.5,
+            saturation: 0.5,
+        },
+    },
 };
 
 for (const [src, options] of Object.entries(assets)) {

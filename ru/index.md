@@ -168,7 +168,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 
 [.cards.clergy]
   [image]
-    srcset: /img/mn-1299w.jpg 1299w, /img/mn-768w.jpg 768w, /img/mn-512w.jpg 512w
+    srcset: /opt/mn-w1299.webp 1299w, /img/mn-w400.webp 400w
     loading: lazy
     alt: Metropolitan Nicholas Portrait
   
@@ -178,7 +178,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
   ---
   
   [image]
-    srcset: /img/fs.png 400w
+    srcset: /opt/fs-w400.webp 400w
     loading: lazy
     alt: Archpriest Serge Portrait
   
