@@ -89,6 +89,9 @@ const assets = {
     'lib/candle-box/img/center_icon.png': {
         widths: [400],
     },
+    'lib/candle-box/img/quick-to-hear.png': {
+        widths: [400],
+    },
 
     'img/front.jpg': {
         widths: [null],
