@@ -19,6 +19,13 @@ body {
     height: 100vh;
     overflow-y: scroll;
     /* scroll-snap-type: y proximity; */
+
+    th {
+        font-weight: normal;
+    }
+    figure {
+        margin: 0;
+    }
 }
 
 body > section {
@@ -34,21 +41,18 @@ body > section {
     background-color: #000;
     overflow: hidden;
 
-    figure {
-        margin: 0;
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 100vh;
-            min-width: 100vw;
-            width: auto;
-            object-fit: cover;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        min-width: 100vw;
+        width: auto;
+        object-fit: cover;
 
-            @media screen and (min-device-aspect-ratio: 16/9) {
-                height: auto;
-                width: 100vw;
-            }
+        @media screen and (min-device-aspect-ratio: 16/9) {
+            height: auto;
+            width: 100vw;
         }
     }
 

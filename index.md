@@ -22,7 +22,7 @@ sections: [intro, about, schedule, candlebox, confession, clergy, donate, contac
   ---
   ### Who We are
 
-  St. Vladimir Memorial Church is a Russian Orthodox Church in the jurisdiction of Russian Orthodox Church Outside of Russia ([ROCOR](http://www.synod.com/)).
+  St. Vladimir Memorial Church is a Russian Orthodox Church in the jurisdiction of Russian Orthodox Church Outside of Russia - [ROCOR](http://www.synod.com/).
 
   Our magnificent church was built in commemoration of 1000 year anniversary of the Baptism of Rus’ by Prince Vladimir.
   ---
