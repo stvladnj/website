@@ -1,12 +1,12 @@
 ---
-sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate, .contact ]
+sections: [intro, about, schedule, candlebox, confession, clergy, donate, contact ]
 ---
 # St. Vladimir Memorial Church in Jackson, NJ
 
-[button RU href="/ru"]
+[button "RU" href="/ru"]
 
 [image.hero]
-  srcset:  /opt/st-vlad-w1024.webp 1024w, /opt/st-vlad-w768.webp 768w, /opt/st-vlad-w512.webp 512w
+  src:  /opt/st-vlad-w1024.webp
   loading: lazy
   alt: St Vladimir Church Picture
 
@@ -16,7 +16,7 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 ## About us
 [.cards]
   [image]
-    srcset: /opt/st_vlad_st_olga-w787.webp 787w, /opt/st_vlad_st_olga-w512.jpg 512w, /opt/st_vlad_st_olga-w256.jpg 256w
+    src: /opt/st_vlad_st_olga-w787.webp
     loading: lazy
     alt: Icon of St Vladimir and St Olga
   ---
@@ -81,53 +81,53 @@ sections: [.intro, .about, .schedule, .candlebox, .confession, .clergy, .donate,
 
 A guide to confession.
 
-1. **I am the Lord your God: you shall have no other gods besides Me**
+#### 1. I am the Lord your God: you shall have no other gods besides Me
 
-   Let’s think: do we really love no one and nothing as much as God, do we not honor or listen to anyone more than God? Do we treat God with complete trust, have we never grumbled at God, etc.?
+Let’s think: do we really love no one and nothing as much as God, do we not honor or listen to anyone more than God? Do we treat God with complete trust, have we never grumbled at God, etc.?
 
-   We sin against this commandment by lack of faith, unbelief, doubt, despair in our salvation, hope in ourselves and in people more than in God; people-pleasing and partial love for people, creatures, things, activities; grumbling and impatience when things are not done according to our desires.
+We sin against this commandment by lack of faith, unbelief, doubt, despair in our salvation, hope in ourselves and in people more than in God; people-pleasing and partial love for people, creatures, things, activities; grumbling and impatience when things are not done according to our desires.
 
-2. **You shall not make for yourself any graven image or any likeness**
+#### 2. You shall not make for yourself any graven image or any likeness
 
-   Let’s think: Don’t we serve mammon more than God? Your self-love, your pride, covetousness, gluttony, drunkenness, the mighty of the world to the point of oblivion of God? We sin against the 2nd commandment by our subservience to the spirit of the times and worldly customs.
+Let’s think: Don’t we serve mammon more than God? Your self-love, your pride, covetousness, gluttony, drunkenness, the mighty of the world to the point of oblivion of God? We sin against the 2nd commandment by our subservience to the spirit of the times and worldly customs.
 
-3. **Thou shalt not take the name of the Lord God in vain**
+#### 3. Thou shalt not take the name of the Lord God in vain
 
-   We sin by saying prayers without any attention to their meaning; pronouncing the name of God in humorous conversations, or with irritation; violation of oaths and vows; contempt and respect for piety; modesty to appear to be a Christian; idle talk.
+We sin by saying prayers without any attention to their meaning; pronouncing the name of God in humorous conversations, or with irritation; violation of oaths and vows; contempt and respect for piety; modesty to appear to be a Christian; idle talk.
 
-4. **Remember the Sabbath day, to keep it holy**
+#### 4. Remember the Sabbath day, to keep it holy
 
-   The Sabbath day for us is Sunday. On this day, we must not only confess our faith by going to the temple of God, but we must do alms for Christ’s sake. We should spend our free time in contemplation and prayer.
+The Sabbath day for us is Sunday. On this day, we must not only confess our faith by going to the temple of God, but we must do alms for Christ’s sake. We should spend our free time in contemplation and prayer.
 
-   We sin by not going to church out of laziness, or because we consider it unimportant; visiting festivities, theater, cinema during great holidays;
+We sin by not going to church out of laziness, or because we consider it unimportant; visiting festivities, theater, cinema during great holidays;
 
-5. **Honor your father and your mother, so that your days on earth may be long**
+#### 5. Honor your father and your mother, so that your days on earth may be long
 
-   We sin by self-justification to our parents; disrespect for elders; negligence about the welfare of parents; carelessness about raising children, and cruel acts towards them.
+We sin by self-justification to our parents; disrespect for elders; negligence about the welfare of parents; carelessness about raising children, and cruel acts towards them.
 
-6. **Thou shalt not kill**
+#### 6. Thou shalt not kill
 
-   We sin against the sixth commandment not only by physical act, but also by word. It is important to know that the Holy Church considers the abortion of an unborn child to be murder under any circumstances, and both the doctor and the mother are considered guilty of this sin.
+We sin against the sixth commandment not only by physical act, but also by word. It is important to know that the Holy Church considers the abortion of an unborn child to be murder under any circumstances, and both the doctor and the mother are considered guilty of this sin.
 
-   In a word, we violate this commandment when we tempt our listeners to sin with our slander and slander against others; bitterness in sins, stubborn resistance to the truth, and irreconcilability with people and God.
+In a word, we violate this commandment when we tempt our listeners to sin with our slander and slander against others; bitterness in sins, stubborn resistance to the truth, and irreconcilability with people and God.
 
-7. **Thou shalt not commit adultery**
+#### 7. Thou shalt not commit adultery
 
-   This commandment generally prohibits all carnal uncleanness, and like the sixth commandment, it is not limited to physical actions alone.
+This commandment generally prohibits all carnal uncleanness, and like the sixth commandment, it is not limited to physical actions alone.
 
-   We sin by fornication, adultery, masturbation; reading immoral books, looking at unchaste pictures and films, lust; passion for obscene objects. and their enjoyment. Even those who have a civil marriage, but are not married in church and cohabit as husband and wife, are considered violators of this commandment.
+We sin by fornication, adultery, masturbation; reading immoral books, looking at unchaste pictures and films, lust; passion for obscene objects. and their enjoyment. Even those who have a civil marriage, but are not married in church and cohabit as husband and wife, are considered violators of this commandment.
 
-8. **Thou shalt not steal**
+#### 8. Thou shalt not steal
 
-   We sin with theft, robbery, parasitism, extortion, stinginess, wastefulness, injustice, love of money, falsehood, concealment; in one word - we sin by dishonesty.
+We sin with theft, robbery, parasitism, extortion, stinginess, wastefulness, injustice, love of money, falsehood, concealment; in one word - we sin by dishonesty.
 
-9. **Thou shalt not bear false witness against thy neighbor**
+#### 9. Thou shalt not bear false witness against thy neighbor
 
-   We sin with slander, gossip, ridicule, flattery, gossip, condemnation, suspicion, insincerity.
+We sin with slander, gossip, ridicule, flattery, gossip, condemnation, suspicion, insincerity.
 
-10. **You shall not covet your neighbor's wife…anything that your neighbor has**
+#### 10. You shall not covet your neighbor's wife…anything that your neighbor has
 
-    We sin with envy, selfish desires and greed.
+We sin with envy, selfish desires and greed.
 
 ------------------
 
@@ -137,7 +137,7 @@ Church Rector is Metropolitan of Eastern America & New York Nicholas (OLHOVSKY),
 
 [.cards.clergy]
   [image]
-    srcset: /opt/mn-w1299.webp 1299w, /opt/mn-w400.webp 400w
+    src: /opt/mn-w400.webp
     loading: lazy
     alt: Metropolitan Nicholas Portrait
   
@@ -147,7 +147,7 @@ Church Rector is Metropolitan of Eastern America & New York Nicholas (OLHOVSKY),
   ---
   
   [image]
-    srcset: /opt/fs-w400.webp 400w
+    src: /opt/fs-w400.webp
     loading: lazy
     alt: Archpriest Serge Portrait
   
@@ -173,20 +173,20 @@ Your donations support our projects and are greately appreciated.
 ## Contact us
 
 [.contacts]
-  [! email]
+  [! /icons/email.svg]
   [info@stvladnj.org](mailto:info@stvladnj.org)
   ---
-  [! location]
-  134 Perrineville Rd<br>
+  [! /icons/location.svg]
+  134 Perrineville Rd,
   Jackson, NJ 08527
   ---
-  [! phone]
+  [! /icons/phone.svg]
   [+1 732 928 1248](tel:+17329281248)
   ---
-  [! telegram]
+  [! /icons/telegram.svg]
   [t.me/stvladnj](https://t.me/stvladnj)
   ---
-  [! facebook]
+  [! /icons/facebook.svg]
   [facebook.com/stvladimirsnj](https://facebook.com/stvladimirsnj)
 
 [driving-directions]

@@ -27,24 +27,28 @@ body > section {
 }
 
 .intro {
+    position: relative;
     height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #000;
     overflow: hidden;
 
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100vh;
-        min-width: 100vw;
-        width: auto;
-        object-fit: cover;
+    figure {
+        margin: 0;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100vh;
+            min-width: 100vw;
+            width: auto;
+            object-fit: cover;
 
-        @media screen and (min-device-aspect-ratio: 16/9) {
-            height: auto;
-            width: 100vw;
+            @media screen and (min-device-aspect-ratio: 16/9) {
+                height: auto;
+                width: 100vw;
+            }
         }
     }
 

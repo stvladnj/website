@@ -6,8 +6,9 @@
     "optimize": "bun ./optimize-images.js",
     "dev": "nue"
   },
+  "dependencies": {},
   "devDependencies": {
-    "nuekit": "^0.5.3",
-    "sharp": "^0.33.4"
+    "nuekit": "^1.0.0-RC.1",
+    "sharp": "^0.33.5"
   }
 }
