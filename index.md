@@ -162,11 +162,11 @@ Our church is a public charity, as recognised by IRS section 501(c)(3) (charity 
 
 Your donations support our projects and are greately appreciated.
 
-[paypal-button label="Donate" howmuch="20" paypal_id="AHW38JCEJ29NC"]
+[paypal-button label="Donate" paypal_id="AHW38JCEJ29NC"]
 
 ### Special purpose donations
 
-[paypal-button label="Help repair St.Olga church" howmuch="50" paypal_id="N7PZC3WSWY456"]
+[paypal-button label="Help repair St.Olga church" paypal_id="T7PE9T2TWTHYQ"]
 
 ------------------
 

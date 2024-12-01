@@ -195,11 +195,11 @@ sections: [intro, about, schedule, candlebox, confession, clergy, donate, contac
 
 Ваши пожертвования идут на украшение храма и поддержку наших благотворительных проектов. Спаси вас Господь!
 
-[paypal-button label="Пожертвовать" howmuch="20" paypal_id="AHW38JCEJ29NC"]
+[paypal-button label="Пожертвовать" paypal_id="AHW38JCEJ29NC"]
 
 ### Целевые пожертвования
 
-[paypal-button label="Ремонт церкви св. Ольги" howmuch="50" paypal_id="N7PZC3WSWY456"]
+[paypal-button label="Ремонт церкви св. Ольги" paypal_id="T7PE9T2TWTHYQ"]
 
 ------------------
 
