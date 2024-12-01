@@ -1,8 +1,6 @@
 <div @name="paypal-button" class="paypal-button">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener">
-      <input type="hidden" name="cmd" value="_s-xclick">
+  <form action="https://www.paypal.com/donate" method="get" target="_blank" rel="noopener">
       <input type="hidden" name="hosted_button_id" value="{paypal_id}">
-      <input type="hidden" name="amount" value="{howmuch}">
       <button type="submit" class="btn btn-primary">{label}</button>
   </form>
 </div>
