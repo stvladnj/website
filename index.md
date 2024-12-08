@@ -10,7 +10,6 @@ sections: [intro, about, schedule, candlebox, confession, clergy, donate, contac
   loading: lazy
   alt: St Vladimir Church Picture
 
-
 ------------
 
 ## About us
@@ -50,14 +49,20 @@ sections: [intro, about, schedule, candlebox, confession, clergy, donate, contac
 
 ### English language Sunday Divine Liturgies in our lower Church of St. Olga
 
-[table "Date | Holiday"]
-  - June 16      | Holy Fathers of the First Eccumenical Council
-  - July 21      | Kazan Icon of Our Lady Theotokos
-  - August 18    | Forefeast of Transfiguration
-  - September 15 | 12th week after Pentecost
-  - October 20   | St. Jonah of Manchuria
-  - November 17  | 21th week after Pentecost
-  - December 15  | Apostle Andrew the First Called
+[table "Date"]
+  - December 15 2024
+  - January 26 2025
+  - February 23 2025
+  - March 30 2025
+  - April 27 2025
+  - May 25 2025
+  - June 29 2025
+  - July 20 2025
+  - August 31 2025
+  - September 28 2025
+  - October 26 2025
+  - November 30 2025
+  - December 28 2025
 
 
 -------------
@@ -158,6 +163,7 @@ Church Rector is Metropolitan of Eastern America & New York Nicholas (OLHOVSKY),
 ------------------
 
 ## Donate to our Church
+
 Our church is a public charity, as recognised by IRS section 501(c)(3) (charity number 74-3224137).
 
 Your donations support our projects and are greately appreciated.
@@ -173,6 +179,7 @@ Your donations support our projects and are greately appreciated.
 ## Contact us
 
 [.contacts]
+
   [! /icons/email.svg]
   [info@stvladnj.org](mailto:info@stvladnj.org)
   ---

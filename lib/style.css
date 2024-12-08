@@ -167,18 +167,8 @@ a:hover {
         width: 80vw;
         table-layout: fixed;
 
-        th:nth-child(1),
-        td:nth-child(1) {
-            text-align: right;
-        }
-
-        th:nth-child(2),
-        td:nth-child(2) {
-            text-align: left;
-        }
-
-        th,
-        td {
+        th,  td {
+            text-align: center;
             padding: 1rem;
         }
     }
