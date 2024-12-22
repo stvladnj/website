@@ -56,7 +56,6 @@ sections: [intro, about, schedule, candlebox, confession, clergy, donate, contac
 ### Воскресные службы в нижнем храме св. Ольги на английском
 
 [table "Date"]
-  - 15 декабря 2024
   - 26 января 2025
   - 23 февраля 2025
   - 30 марта 2025
