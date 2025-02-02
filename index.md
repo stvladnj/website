@@ -50,7 +50,7 @@ sections: [intro, about, schedule, candlebox, confession, clergy, donate, contac
 ### English language Sunday Divine Liturgies in our lower Church of St. Olga
 
 [table "Date"]
-  - February 2 2025
+  - February 9 2025
   - February 23 2025
   - March 30 2025
   - April 27 2025
